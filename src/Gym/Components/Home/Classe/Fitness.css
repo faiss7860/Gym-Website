@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.plan_t{
+    background-color: #151515;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan_h{
+    font-family: "Oswald",sans-serif;
+    color: aliceblue;
+}
+.plan_s{
+    font-family: "Muli",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

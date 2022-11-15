@@ -1,0 +1,41 @@
+.workOutBtn{
+    background-color: rgb(0, 0, 0);
+}
+
+.maincontainer{
+    padding-bottom: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,260px);
+    place-content: center;
+    gap: 2rem;
+    background-color: rgb(0, 0, 0);;
+  }
+
+  .workcard{
+    background-color: #151515;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .workimg{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100%;
+    background-color: white;
+    object-fit:cover;
+}
+.workname{
+    color: aliceblue;
+    font-size: unset;
+    height: 40px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.excard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

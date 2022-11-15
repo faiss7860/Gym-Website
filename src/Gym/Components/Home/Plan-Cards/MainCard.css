@@ -1,0 +1,39 @@
+.Cards{
+    height: auto;
+    width: 100%;
+}
+
+.Card{
+    display: grid;
+  grid-template-columns: repeat(auto-fit,300px);
+  place-content: center;
+  background-color: black;
+}
+
+.c1{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.c2{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+.c3{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
