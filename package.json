@@ -1,7 +1,7 @@
 {
   "name": "react-practice",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://faiss7860.github.io/gym-website",
   "dependencies": {
     "@mui/material": "^5.10.13",
@@ -24,8 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
